@@ -1,0 +1,13 @@
+{
+  "references": [
+    {
+      "path": "./packages/admin/tsconfig.json"
+    },
+    {
+      "path": "./packages/api/tsconfig.json"
+    },
+    {
+      "path": "./packages/share/tsconfig.json"
+    }
+  ]
+}

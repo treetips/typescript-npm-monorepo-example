@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./build",
+    "esModuleInterop": true,
+    "composite": true,
+    "baseUrl": "./",
+    "paths": {
+      "@share/*": ["../share/build/*"]
+    }
+  },
+  "references": [{ "path": "../share" }]
+}
